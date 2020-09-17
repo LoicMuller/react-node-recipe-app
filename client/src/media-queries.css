@@ -1,0 +1,73 @@
+@media screen and (max-width: 730px) {
+  .logo,
+  .new-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .main-nav a,
+  .new-main-nav a {
+    font-size: 0.9em;
+  }
+  .landing-container {
+    width: 75%;
+  }
+  .landing-container a {
+    font-size: 1.2em;
+  }
+  .suggest-form-container button {
+    width: 50%;
+  }
+  .cards-container {
+    padding-top: 80px;
+  }
+  .informations {
+    flex-direction: column;
+
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title-img-container {
+    width: 75%;
+  }
+  .recipe {
+    margin: 0;
+    border: none;
+    letter-spacing: 0;
+  }
+  .liste-ingredients {
+    padding: 5px;
+    list-style: none;
+  }
+  .liste-preparation {
+    padding: 5px;
+  }
+  .liste-ingredients h3,
+  .liste-preparation h3 {
+    font-size: 1em;
+  }
+  .empty-container {
+    padding: 10px;
+  }
+  .success-msg {
+    top: 100%;
+    background-color: #333333;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .landing-container {
+    width: 80%;
+  }
+  .landing-container a {
+    font-size: 1em;
+  }
+  .suggest-form-container button {
+    width: 75%;
+  }
+  .image img {
+    width: 200px;
+    height: 150px;
+  }
+}

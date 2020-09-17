@@ -5,8 +5,6 @@
 /.pnp
 .pnp.js
 
-# js files
-src/recettes.js
 
 # testing
 /coverage

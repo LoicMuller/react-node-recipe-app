@@ -2,8 +2,7 @@
   "name": "react-node-recipe-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
-  "secure": false,
+  "proxy": "https://frozen-ridge-80190.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

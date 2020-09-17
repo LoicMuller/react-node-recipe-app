@@ -142,7 +142,7 @@ const Suggest = () => {
                 id="standard-required time"
                 placeholder="Choisir une durée"
                 name="time"
-                label="Temps"
+                label="Temps (en min)"
                 value={time}
                 onChange={handleTime}
               />

@@ -10,10 +10,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
-app.get("/", () => {
-  res.send("welcome to my form");
-});
-
 app.post("/api/form", (req, res) => {
   let data = req.body;
   let smtpTransport = nodemailer.createTransport({

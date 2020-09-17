@@ -228,15 +228,17 @@ const recettes = {
     },
   },
   vosRecettes: {
-    nom: "Soupe de pain",
-    image: "soupe-de-pain.png",
-    nombre: "4",
-    temps: "20 min",
-    difficulte: "Très facile",
-    ingredients:
-      "Pain ou pain sec,1 oignon,50cl d'eau,1/2 cuillère à soupe d'huile,25g de beurre",
-    preparation:
-      "Mettre sa marmite sur le feu.Faire fondre le beurre et déposer l'huile dans le fond.Faire revenir vos oignons et faire un roux.Mettre le pain et l'eau dans la marmite.Laisser sur le feu 20 minutes tout en remuant de temps en temps.Servez et dégustez",
+    recette1: {
+      nom: "Soupe de pain",
+      image: "soupe-de-pain.png",
+      nombre: "4",
+      temps: "20 min",
+      difficulte: "Très facile",
+      ingredients:
+        "Pain ou pain sec,1 oignon,50cl d'eau,1/2 cuillère à soupe d'huile,25g de beurre",
+      preparation:
+        "Mettre sa marmite sur le feu.Faire fondre le beurre et déposer l'huile dans le fond.Faire revenir vos oignons et faire un roux.Mettre le pain et l'eau dans la marmite.Laisser sur le feu 20 minutes tout en remuant de temps en temps.Servez et dégustez",
+    },
   },
 };
 
